@@ -1,0 +1,100 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #0074cc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+nav {
+    background-color: #333; /* Set your desired background color */
+    padding: 70px; /* Add padding for better spacing */
+}
+.passport-photo {
+  max-width: 20%; /* Set the maximum width to 100% of the container */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensure images don't have extra spacing below them */
+  margin: 5px 0; /* Add some margin for spacing between images */
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+	list-style: none;
+}
+
+.menu-links li {
+    margin: 20px;
+}
+
+.menu-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav p {
+    font-size: 34px; /* Adjust the font size as needed */
+    color:  #000000; /* Adjust the color as needed */
+}
+
+nav {
+    background-image: url("C:\Users\My Com\Downloads\back.png.jpg"); /* Replace 'path-to-your-image.jpg' with the actual path to your background image */
+    
+}
+/* Increase font size and color for headings */
+nav h1,
+nav h2,
+nav h3,
+nav h4,
+nav h5 {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #8FED92; /* Adjust the color as needed */
+}
+footer {
+    background-color: #0074cc; /* Change to your desired color */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.image-container {
+  display: flex;
+  overflow: auto; /* Allow horizontal scrolling if needed */
+}
+
+.image-container img {
+  flex: 0 0 auto;
+  width: 200px; /* Adjust the width as needed */
+  height: 100px;
+  margin-right: 10px; /* Add margin between images */
+}
+
+}
+
+/* Styles for larger screens */
+
+body {
+  font-size: 16px;
+  /* Add other styles for larger screens here */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    /* Add other styles for smaller screens here */
+  }
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

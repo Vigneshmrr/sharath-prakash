@@ -1,0 +1,175 @@
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #0074cc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+	text-align:	center;
+}
+
+
+
+/* Center the image */
+nav img.passport-photo {
+    display: block;
+    margin: 0 auto;
+	
+    width: 20%; /* Adjust the width as needed */
+    height: 40%; /* Maintain aspect ratio */
+}
+
+/* Additional styles for better spacing */
+nav {
+    padding: 20px; /* Add padding for better spacing */
+}
+nav {
+    background-color: #FFFFE0; /* Set your desired background color */
+    padding: 70px; /* Add padding for better spacing */
+}
+footer {
+    background-color: #0074cc; /* Change to your desired color */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Rest of your existing CSS styles */
+
+/* Add these styles to your existing CSS or create a new style block */
+.navbar p {
+    font-family: 'Arial', sans-serif; /* Change to your desired font-family */
+    color: #333; /* Change to your desired color */
+    font-size: 1.2rem; /* Change to your desired font size */
+}
+
+.hero-section p {
+    font-family: 'Verdana', sans-serif; /* Change to your desired font-family */
+    color: #990000; /* Change to your desired color */
+    font-size: 1.5rem; /* Change to your desired font size */
+}
+
+.navbar {
+    /* Add any styles specific to your navbar */
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.menu-links li {
+    margin: 0 1rem;
+}
+
+.menu-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero-section {
+    /* Add styles for your hero section */
+}
+
+/* Button styles */
+.interactive-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.interactive-btn:hover {
+    background-color: #45a049;
+}
+
+/* Chat container styles */
+#chat-container {
+    display: none;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#messages {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#user-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#send-btn {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#send-btn:hover {
+    background-color: #45a049;
+}
+/* Styles for larger screens */
+
+body {
+  font-size: 16px;
+  /* Add other styles for larger screens here */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    /* Add other styles for smaller screens here */
+  }
+}

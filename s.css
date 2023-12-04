@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #0074cc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 70px;
+}
+
+.passport-photo {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 5px 0;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.menu-links li {
+    margin: 20px;
+}
+
+/* Styles for larger screens */
+body {
+    font-size: 16px;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+.menu-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav p {
+    font-size: 34px;
+    color: #000000;
+}
+
+nav {
+    background-image: url("C:\Users\My Com\Downloads\back.png.jpg");
+}
+
+/* Increase font size and color for headings */
+nav h1,
+nav h2,
+nav h3,
+nav h4,
+nav h5,
+nav h6 {
+    font-size: 28px;
+    color: #8FED92;
+}
+
+/* Main content column-wide */
+main {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the main content */
+}
+
+/* Additional styles for main content as needed */
+main p {
+    /* Add styles for paragraphs within the main content */
+}
